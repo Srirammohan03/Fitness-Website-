@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Nova Round';
+  src: url('../fonts/nr/NovaRound.woff2') format('woff2'),
+      url('../fonts/nr/NovaRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed Light';
+  src: url('../fonts/osl/OpenSansCondensed-Light.woff2') format('woff2'),
+      url('../fonts/osl/OpenSansCondensed-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../fonts/msr/Montserrat-Regular.woff2') format('woff2'),
+      url('../fonts/msr/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat ExtraLight';
+  src: url('../fonts/msel/Montserrat-ExtraLight.woff2') format('woff2'),
+      url('../fonts/msel/Montserrat-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('../fonts/msm/Montserrat-Medium.woff2') format('woff2'),
+      url('../fonts/msm/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('../fonts/msl/Montserrat-Light.woff2') format('woff2'),
+      url('../fonts/msl/Montserrat-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Italic';
+  src: url('../fonts/msli/Montserrat-Italic.woff2') format('woff2'),
+      url('../fonts/msli/Montserrat-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+

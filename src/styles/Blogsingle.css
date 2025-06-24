@@ -1,0 +1,155 @@
+
+
+
+
+.blogsingle-top{
+  display: flex;
+}
+.blogsingle-top img{
+  width:50%;
+  height: 430px;
+}
+.blogsingle-top-left{
+  width: 50%;
+  padding-left: 40px;
+}
+.blogsingle-top-left h2{
+  font-family: 'Montserrat Regular';
+  color: #000;
+  font-size: 33.34px;
+  line-height: 37px;
+}
+.blogsingle-top-left p{
+  font-family: 'Montserrat Regular';
+  color: #545454;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0;
+  padding-top: 30px;
+}
+#blogsingle-content p{
+  font-family: 'Montserrat Regular';
+  color: #545454;
+  font-size: 17px;
+  line-height: 27px;
+  padding-top: 60px;
+}
+#blogsingle-content pre{
+  padding: 100px 100px 0 150px;
+  font-family: 'Montserrat Italic';
+  font-size: 25px;
+  line-height: 48px;
+  color: #545454;
+}
+.blog-social{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #aaaaaa;
+  padding: 40px;
+}
+.blogsingle-social{
+  margin: 0;
+}
+.blogsingle-social .fa-facebook{
+  width: 100px;
+  padding: 5px 0;
+  background-color: #3b5998;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.blogsingle-social .fa-twitter{
+  width: 100px;
+  padding: 5px 0;
+  background-color: #55acee;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+.blogsingle-social .fa-pinterest{
+  width: 100px;
+  padding: 5px 0;
+  background-color: #cb2027;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+.blog-social p{
+  margin: 0;
+  color: #9d9d9d;
+}
+.blog-social p a{
+  text-decoration: underline !important;
+}
+.blogsingle h1{
+  font-family: 'Montserrat Regular';
+  font-size: 30px;
+  line-height: 43px;
+  padding: 100px 0 65px 0;
+
+
+}
+.blogsingle-level2{
+  display: flex;
+}  
+.blogsingle-level2-left{
+  border: 2px solid #aaaaaa;
+padding: 60px 40px;
+margin-right: 60px;
+}
+.blogsingle-level2-left:last-child{
+  margin-right: 0;
+}
+.blogsingle-level2-left p{
+  font-size: 15px;
+  font-family: 'Montserrat Regular';
+    line-height: 32px;
+    color: #959595;
+}
+.blogsingle-level2-left p b{ 
+  color: #8dc63f;
+  font-size: 21px;
+}
+.blogsingle h3{
+  font-family: 'Montserrat Regular';
+  font-size: 30px;
+  line-height: 43px;
+  padding: 100px 0 40px 0;
+}
+
+
+#blogsingle-form input{
+  width: 48%;
+  height: 50px;
+  margin-right: 44px;
+  font-family: 'Montserrat Italic';
+  font-size: 13px;
+  color: #000;
+  padding: 10px 15px;
+}
+#blogsingle-form input:nth-child(2){
+margin-right: 0;
+}
+#blogsingle-form textarea{
+  width: 100%;
+  height: 200px;
+  font-family: 'Montserrat Italic';
+  font-size: 13px;
+  color: #000;
+  padding: 10px 15px;
+  margin: 30px 0;
+} 
+#blogsingle-form a{
+  text-decoration: none;
+  font-size: 15.34px;
+  line-height: 56.02px;
+  font-family: 'Nova Round';
+  padding: 10px 25px;
+  background-color: #000;
+  color: #cbcbcb;
+  border-radius: 50px;
+}    
+.blogsingle{
+  padding: 105px 0 270px 0;
+}

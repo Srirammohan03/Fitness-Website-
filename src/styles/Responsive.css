@@ -1,0 +1,211 @@
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 980px !important;
+  }
+  .ourgym-gallery img {
+    width: 202px !important;
+  }
+  #card-data {
+    width: 30.4% !important;
+  }
+  #blogsingle-form input {
+    width: 47.6% !important;
+  }
+  .head-data {
+    width: 31% !important;
+}
+/* .head-last:first-child {
+  transform: translate(13px, 10px) !important;
+}
+.head-last:nth-child(2) {
+  transform: translate(27px, 10px) !important;
+} */
+}
+
+@media screen and (max-width: 979px) {
+  .container {
+    width: 750px !important;
+  }
+  #blogsingle-form input {
+    width: 45.7% !important;
+  }
+  #card-data {
+    width: 29.4% !important;
+  }
+  .about1 p {
+   
+
+    padding-left: 30px !important;
+  
+  }
+  aside {
+    height: 566px !important;
+  }
+  .contact-right b {
+    
+    font-size: 22px !important;
+  }
+  .ourgym-gallery img {
+    width: 142px !important;
+    height: 200px !important;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 749px) {
+  .container {
+    width: 96% !important;
+  }
+  #card-data {
+    width: 100% !important;
+}
+  .foot-content form input{
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  #foot-last-res {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  #foot-last-res img{
+    margin: 0;
+  }
+  #foot-nav{
+    flex-direction: column !important;
+  }
+  #foot-logo{
+    display:contents;
+  }
+  aside {
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .about1 {
+    flex-direction: column !important;
+}
+.about1 p {
+  margin: 0;
+  width: 100% !important;
+}
+.classes-content {
+  flex-direction: column;
+}
+  .classes-data {
+   width: 100% !important;
+    border-right: none !important;
+    border-bottom: 2px solid #aaaaaa;
+}
+.classes-data-left {
+  width: 100% !important;
+}
+.contact-content {
+  flex-direction: column;
+}
+.contact-left {
+ 
+  width: 100% !important;
+}
+.contact-right {
+  padding-left: 0 !important;
+ 
+}
+.ourgym-gallery img {
+ width: 100% !important;
+ height: 300px !important;
+ margin: 0 !important;
+ margin-bottom: 25px !important;
+
+}
+.ourgym-gallery {
+  flex-direction: column;
+}
+.blogsingle-top {
+  flex-direction: column;
+}
+.blogsingle-top img {
+  width: 100% !important;
+}
+.blogsingle-top-left {
+  padding: 10px 0 0 0 !important;
+  width: 100% !important;
+}
+#blogsingle-content pre {
+ 
+ padding: 0 !important;
+  font-size: 16px !important;
+  line-height: 41px !important;
+ 
+}
+.blog-social {
+  align-items: center;
+  flex-direction: column;
+}
+.blogsingle-level2 {
+  flex-direction: column;
+}
+.blogsingle-level2-left {
+  margin:0 0 15px 0 !important;
+}
+#blogsingle-form input {
+  width:100% !important;
+  margin: 0 0 15px 0;
+}
+.head-data {
+  width: 100% !important;
+}
+.head-last-content {
+  text-align: center !important;
+  flex-direction: column;
+}
+.head-data:first-child {
+  transform: translate(0) !important;
+}
+.head-data:nth-child(2) {
+  transform: translate(0) !important;
+}
+.head-data:nth-child(3) {
+  transform: translate(0) !important;
+}
+.head-data::after {
+ display: none;
+}
+.section1-card {
+  flex-direction: column;
+}
+#section1-data {
+  width: 100% !important;
+  margin-bottom: 30px !important;
+}
+.section2-one {
+  
+  flex-direction: column !important;
+}
+.section2-data {
+  width: 100% !important;
+  border: 0 !important;
+}
+.section3-card {
+  flex-direction: column !important;
+}
+#section3-card-data {
+  width:100% !important;
+  margin-bottom: 30px !important;
+}
+
+
+.section4-img-here {
+  
+  width: 50% !important;
+
+}
+.section4-img-here:last-child {
+  
+display: none;
+
+}
+
+}

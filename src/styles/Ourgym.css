@@ -1,0 +1,43 @@
+.ourgym {
+  padding: 60px 0;
+}
+
+.ourgym h2 {
+  font-family: 'Open Sans Condensed Light';
+  font-size: 58px;
+  line-height: 84px;
+  color: #464646;
+  padding-bottom: 40px;
+}
+
+.ourgym p {
+  font-family: 'Montserrat ExtraLight';
+  font-size: 16px;
+  line-height: 27px;
+  padding-bottom: 60px;
+}
+
+
+.ourgym-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ourgym-gallery img {
+  width: 342px;
+  height: 300px;
+  margin: 0 45px 40px 0;
+}
+
+.ourgym-gallery img:nth-child(3) {
+  margin-right: 0;
+}
+
+.ourgym-gallery img:nth-child(6) {
+  margin-right: 0;
+}
+
+.ourgym-gallery img:nth-child(9) {
+  margin-right: 0;
+}

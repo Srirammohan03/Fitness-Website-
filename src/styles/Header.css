@@ -1,0 +1,56 @@
+
+
+
+
+
+
+.container{
+  width: 1080px;
+  padding: 0;
+}
+nav ul li{
+  display: flex;
+  
+  font-size: 16px !important;
+  color: #fff !important;
+}
+nav ul li+li::before{
+  content: '~';
+  padding: 0 5px;
+  margin: 9px 0;
+}
+nav ul li a{
+  font-family: 'Nova Round';
+  color: #fff !important; 
+
+}
+nav ul li a:hover{
+  color: #00ff00 !important;
+
+}
+.header{
+  background-image: url('../image/head-back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+.head-content{
+  text-align: center;
+  padding: 100px 0;
+}
+.head-content h1{
+  font-family: 'Open Sans Condensed Light';
+  color: #fff;
+  font-size: 62px;
+
+}
+.head-content p{
+  font-family: 'Open Sans Condensed Light';
+  color: #fff;
+  font-size: 40px;
+
+}
+.header hr{
+  color: #fff;
+
+}

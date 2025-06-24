@@ -1,0 +1,260 @@
+
+
+.head-content p {
+padding-bottom: 50px;
+
+}
+.head-content a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px 30px;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 50px;
+  font-family: 'Nova Round';
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 30px;
+}
+.head-content a:last-child{
+  margin-right: 0;
+}
+.head-content a:hover{
+  background-color: #00ff00;
+  color: #ffffff;
+}
+.head-last{
+  background-image: url('../image/head-bottom.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  margin: 100px 0 0 0;
+}
+.head-last-content{
+  display: flex;
+  
+
+}
+.head-data{
+  width: 33%;
+}
+.head-data:first-child {
+  transform: translate(-60px, 10px);
+}
+
+.head-data:nth-child(2) {
+  transform: translate(-5px, 10px);
+  
+}
+
+.head-data:nth-child(3) {
+  transform: translate(60px, 10px);
+ 
+}
+.head-data::after {
+  content: "";
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent transparent #ffffff transparent;
+  position: absolute;
+  bottom: -50px;
+  left: -60px;
+}
+.head-data:first-child::after {
+ 
+  border: 0;
+}
+.head-data h3{
+  font-family: 'Nova Round';
+  font-size: 32px;
+  color: #fff;
+
+
+}
+.head-data h3::after{
+  content: '~';
+  color: #00ff00;
+  padding: 0 15px;
+}
+.head-data p{
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Montserrat Regular';
+  line-height: 25px;
+  padding-top: 25px;
+}
+
+
+
+.section1-card{
+  display: flex;
+}
+#section1-data{
+  width: 29%;
+  margin: 0 70px 0 0;
+  text-align: center;
+  border: 2px solid #00ff00;
+ 
+  padding: 60px 0 0 0;
+  position: relative;
+}
+#section1-data::before{
+  content: url('../image/arrow.png');
+    position: absolute;
+    top: 33px;
+    left: 60%;
+    transform: translate(-50px, -50px);
+}
+#section1-data:last-child{
+
+  margin: 0;
+}
+#section1-data h5{
+  font-family: 'Nova Round';
+  font-size: 32px;
+ margin: 0;
+}
+#section1-data img{
+  max-width: 100%;
+  padding: 45px 0 0 0;
+  
+}
+#section1-data p{
+  font-size: 16px;
+  font-family: 'Montserrat Regular';
+  padding: 30px;
+}
+.section1{
+  background-image: url('../image/body.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.section1 h4{
+  font-size: 70px;
+  font-family: 'Open Sans Condensed Light';
+  color: #464646;
+  font-weight: 600;
+  text-align: center;
+}
+.section1 h6{
+  font-size: 50px;
+  font-family: 'Open Sans Condensed';
+  color: #464646;
+  padding: 35px 0 50px 0;
+  font-family: 'Open Sans Condensed Light';
+  text-align: center;
+}
+.section2-one{
+  display: flex;
+  padding: 65px 0 80px 0;
+}
+.section2-data{
+  width: 34%;
+  text-align: center;
+  border-right: 2px solid #e5e5e5;
+  padding: 0 35px 0 0;
+  margin: 0;
+}
+.section2-data:last-child{
+  border-right: 0;
+  padding-right: 0;
+  
+}
+
+.section2-data i{
+  color: #dddddd;
+}
+.section2-data h4{
+  font-size: 30px;
+  font-family: 'Nova Round';
+  padding: 30px 0 5px 0;
+}
+.section2-data p{
+  font-size: 17px;
+  font-family: 'Montserrat Regular';
+ 
+  color: #545454;
+}
+.section3-card{
+  display: flex;
+ 
+}
+#section3-card-data{
+  width: 31%;
+ margin: 0 40px 0 0;
+ border: 0;
+ background-color: 0;
+}
+#section3-card-data:last-child{
+  margin-right: 0;
+}
+.section3{
+  background-image: url('../image/body2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section3-card-data p{
+  font-size: 25.34px;
+  font-family: 'Montserrat Regular';
+  line-height: 37px;
+  color: #cbcbcb;
+  padding: 20px 0;
+  margin: 0;
+}
+#section3-card-data a{
+
+  font-size: 15.34px;
+  font-family: 'Nova Round';
+  padding: 10px 10px;
+  background-color: #000;
+  color: #cbcbcb;
+  border-radius: 50px;
+}
+.section3 h3{
+  font-size: 32px;
+    font-family: 'Nova Round';
+    color: #fff;
+}
+.section3{
+  padding: 115px 0 100px 0;
+}
+
+.section4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section4-img-here {
+  position: relative;
+  width: 20%; 
+  overflow: hidden; 
+}
+
+.section4-img {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+ 
+ opacity: 0;
+  transition: opacity 0.5s ease; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.overlay img{
+height: 300px;
+}
+
+.section4-img-here:hover .overlay {
+  opacity: 1;
+}

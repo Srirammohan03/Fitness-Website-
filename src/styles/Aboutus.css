@@ -1,0 +1,37 @@
+
+
+#aboutus{
+padding: 50px 0 200px 0;
+}
+#aboutus h2{
+  font-family: 'Open Sans Condensed Light';
+  font-size: 58px;
+  color: #464646;
+  padding-bottom: 50px;
+}
+#aboutus p{
+  font-family: 'Montserrat ExtraLight';
+
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 50px;
+  
+}
+aside {
+    width: 50%;
+    height: 410px;
+    background-color: #e5e5e5;
+}
+.about1{
+display: flex;
+}
+.about1 p{
+  font-family: 'Montserrat ExtraLight';
+  width: 50%;
+  color: #000;
+  font-size: 16px;
+  line-height: 32px !important;
+  padding-top: 0 !important;
+  padding-left: 50px;
+}

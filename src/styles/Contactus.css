@@ -1,0 +1,61 @@
+
+
+.contact-content{
+  display: flex;
+}
+.contact-left{
+  margin: 0;
+  width: 50%;
+}
+.contact-left input{
+  width: 95%;
+  height: 50px;
+  margin-bottom: 35px;
+}
+.contact-left textarea{
+  width: 95%;
+  height: 200px;
+  margin-bottom: 80px;
+}
+.contact-left a{
+  background-color: #233359;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px 55px;
+  font-size: 22px;
+}
+.contact-right {
+  padding-left: 100px;
+  margin: 0;
+}
+.contact-right p{
+  font-family: 'Montserrat Regular';
+  font-size: 18px;
+  line-height: 42px;
+  font-weight: 600;
+}
+.contact-right b{
+  font-family: 'Montserrat Regular';
+  font-size: 30px;
+  line-height: 77px;
+}
+.contact-right b i {
+  padding-right: 15px;
+}
+.contactus{
+  padding: 75px 0 450px 0;
+}
+.contactus h2{
+  font-family: 'Open Sans Condensed Light';
+  font-size: 58px;
+  line-height: 84px;
+  color: #464646;
+  padding-bottom: 50px;
+}
+.contactus .contactus-para{
+  font-family: 'Montserrat ExtraLight';
+  font-size: 16px;
+  line-height: 34px;
+  padding-bottom: 60px;
+}

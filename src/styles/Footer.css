@@ -1,0 +1,80 @@
+.footer {
+  background-image: url("../image/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  padding: 60px 0;
+}
+
+.foot-last {
+  text-align: end;
+}
+.foot-last p {
+  font-family: "Nova Round";
+  color: #fff;
+  font-size: 12px;
+  margin-top: -51px;
+}
+.foot-last p a {
+  color: #00ffff !important;
+  text-decoration: underline !important;
+}
+.footer hr {
+  color: #fff;
+}
+.foot-content {
+  text-align: center;
+}
+.foot-content h1 {
+  font-family: "Nova Round";
+  color: #00ffff;
+  font-size: 28px;
+}
+.foot-content p {
+  font-family: "Nova Round";
+  color: #fff;
+  font-size: 22px;
+}
+.foot-content form {
+  padding: 25px 0;
+}
+.foot-content form input {
+  width: 25%;
+  height: 40px;
+  font-family: "Montserrat Regular";
+  padding: 10px;
+  margin-right: 15px;
+  border: 0;
+}
+
+.foot-content form #submit {
+  font-family: "Nova Round";
+  color: #000;
+  background-color: #00ff00;
+}
+
+#foot-list ul {
+}
+#foot-list ul li {
+  display: inline-block;
+}
+#foot-list ul li a {
+  text-decoration: none;
+}
+#foot-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+  align-items: center;
+  flex-direction: row;
+}
+.author {
+  font-size: 24px;
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+}
+.author p strong {
+  font-size: 44px;
+  color: #ff912a;
+}
